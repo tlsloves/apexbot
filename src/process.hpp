@@ -69,6 +69,7 @@ public:
 
 public:
 	uint32_t pid = 0;
+	void* process = (void*)(size_t)-1;
 	uint64_t r5apex_exe = 0;
 };
 
